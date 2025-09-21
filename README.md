@@ -9,30 +9,33 @@ Se utiliza [`networkx`](https://networkx.org/) para manejar el grafo y [`matplot
 ## Requisitos
 
 - Python 3.10+ (en macOS se recomienda instalarlo con [Homebrew](https://brew.sh/)):
-
-  ```bash
-  brew install python
+  
+    ```bash
+    brew install python
 
 ## Entorno virtual:
 - Crear y entrar en el entorno:
 
-python3 -m venv venv
-source venv/bin/activate
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
 
-instalar dependencias necesarias (networkx y matplotlib):
+- Instalar dependencias necesarias (networkx y matplotlib):
 
-pip install networkx matplotlib
+    ```bash
+    pip install networkx matplotlib
 
 ## Uso
 
 - Ejecutar el programa:
-
-python arbol.py
+    ```bash
+    python arbol.py
 
 - Ingresar una cadena para probar (ejemplo):
 
-Ingrese una cadena (o 'salir'): 2 + 3 * 4
-Cadena aceptada
+    ```bash
+    Ingrese una cadena (o 'salir'): 2 + 3 * 4
+    Cadena aceptada
 
 Se abrirá una ventana con el árbol de sintaxis.
 
